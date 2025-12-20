@@ -13,4 +13,91 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font), sans-serif;
+  font-variation-settings: var(--text-font-weight);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  block-size: 100%;
+}
+
+.header-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: 100px;
+  block-size: var(--container-height);  
+}
+
+.block {
+  inline-size: var(--container-width);
+  border: 2px solid rgba(0, 0, 0, 1);
+  background-color: #fff;
+}
+
+.header-title {
+  font-family: var(--accent-font);
+  text-transform: uppercase;
+  font-size: var(--header-font-size);
+}
+
+.header-subtitle {
+  font-family: var(--accent-font);
+  text-transform: uppercase;
+  font-size: var(--subtitle-font-size);
+}
+
+.card__list-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  padding-block: 4px;
+  padding-inline: 10px;
+  font-weight: var(--title-font-weight);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-inline: 25px;
+}
+
+.card-image {
+  inline-size: 100%;
+  margin-block-end: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: var(--text-font-seight);
+}
+
+.card__like-button {
+  background-color: transparent;
+  outline: 2px solid #000;
+  padding-inline: 35px;
+  padding-block: 7px;
+  align-self: end;
+  margin-block-end: 25px;
+}
+
+.button__text {
+  font-family: var(--accent-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 90%;
 }
