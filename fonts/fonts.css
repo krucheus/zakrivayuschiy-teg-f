@@ -12,7 +12,5 @@
     url(./Inter-Variable.woff2) format('woff2 supports variations'),
     url(./Inter-Variable.woff2) format('woff2-variations');
   font-display: swap;
-  font-weight: 410 715;
+  font-weight: 400 785;
 }
-
-/* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
