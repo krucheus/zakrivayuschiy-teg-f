@@ -58,13 +58,13 @@
 }
 
 .header-title {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--header-font-size);
   text-transform: uppercase;
 }
 
 .header-subtitle {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--subtitle-font-size);
   text-transform: uppercase;
 }
@@ -116,13 +116,12 @@
   max-block-size: 696px;
 }
 
-
 .image-label {
   position: absolute;
   top: 25px;
   right: 25px;
   opacity: 0.5;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-font-size);
   text-transform: uppercase;
   text-shadow:
@@ -217,7 +216,7 @@
 .button__text {
   position: relative;
   color: var(--color-white);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-weight: 400;
   font-size: var(--accent-font-size);
   line-height: 90%;
@@ -257,7 +256,7 @@
 
 .button-ok {
   padding-block: 12px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-font-size);
   text-transform: uppercase;
   background-color: transparent;
