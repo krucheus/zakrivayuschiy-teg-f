@@ -8,6 +8,38 @@
   font-variation-settings: 'wght' var(--text-font-weight);
 }
 
+.filter-grayscale {
+  filter: grayscale(0.5);
+}
+
+.filter-sepia {
+  filter: sepia(77%);
+}
+
+.filter-blur {
+  filter: blur(1rem);
+}
+
+.filter-contrast-blur {
+  filter: contrast(50%) blur(1.45rem);
+}
+
+.filter-saturate {
+  filter: saturate(500%);
+}
+
+.filter-invert {
+  filter: invert(0.8);
+}
+
+.filter-brightness {
+  filter: brightness(1.5);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(-50deg);
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -41,6 +73,7 @@
   display: grid;
   justify-items: center;
   gap: 50px;
+  margin-block-end: 100px;
 }
 
 .card__block {
@@ -73,13 +106,16 @@
 
 .image__container {
   position: relative;
+  border-block: 2px solid var(--main-color);
 }
 
 .card-image {
   display: block;
   object-fit: cover;
   inline-size: 100%;
+  max-block-size: 696px;
 }
+
 
 .image-label {
   position: absolute;
@@ -191,7 +227,7 @@
 .button-save {
   gap: 8px;
   padding-inline: 20px;
-  padding-block: 20px;
+  padding-block: 17px;
 }
 
 .button-save:focus {
@@ -323,10 +359,6 @@
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s ease-in 0.3s;
 }
-
-
-
-
 
 @media (width < 376px) {
   .button-save {
