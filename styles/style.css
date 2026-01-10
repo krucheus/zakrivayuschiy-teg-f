@@ -17,7 +17,7 @@
 }
 
 .filter-blur {
-  filter: blur(1rem);
+  filter: blur(0.2rem);
 }
 
 .filter-contrast-blur {
